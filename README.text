@@ -1,2 +1,18 @@
 # tarea_2
 Repositorio para la tarea 2 de Conceptos avanzados de Ingenieria de Software
+
+# Proceso de instalación
+
+1. Abra el terminal o la ventana de comandos de su sistema operativo.
+2. Ubiquese sobre la carpeta en la que va a clonar el repositorio. (Ejemplo: cd /Users/David/Git)
+3. Escriba el siguiente comando: git clone https://github.com/admojica/tarea_2.git
+4. Se creará una carpeta denominada tarea_2, acceda a la carpeta por linea de comandos de la siguiente manera: cd tarea_2.
+5. Proceda a empaquetar el programa con maven a través del siguiente comando: mvn package.
+6. Una vez que culmine el proceso del comando package proceda a ejecutar el .jar generado dentro de la carpeta target generada como se enuncia a continuación en el proceso de ejecución del programa.
+
+# Proceso de ejecución del programa
+
+1. Sobre la ruta de la carpeta tarea_2 en la que se ejecutó el comando mvn package, escriba el siguiente comando para ejecutar el programa: java -cp target/Program_2-1.0-SNAPSHOT.jar view.Test
+2. Se abrirá una ventana que le premitirá escoger una ruta de una programa para que pueda contar la cantidad de líneas de código, el número de items y el tamaño total de un programa. Dicha ventana abre sobre la raiz de la carpeta tarea_2, por lo que puede seleccionar el directorio src para contar todos los elementos del programa.
+3. Una vez seleccionada la ruta, se procede a dar clic en seleccionar o aceptar.
+4. En la ventana de comandos se observará el nombre de la parte(clase), la cantidad de líneas de código de dicha parte, el número de items, y finalmente, el tamaño total del programa.
